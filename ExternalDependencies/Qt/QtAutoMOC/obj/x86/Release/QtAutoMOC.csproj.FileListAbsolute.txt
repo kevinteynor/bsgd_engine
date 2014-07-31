@@ -1,0 +1,5 @@
+F:\Users\kteynor\Documents\School\Game Engine\Labs\ExternalDependencies\Qt\QtAutoMOC\bin\Release\QtAutoMOC.exe
+F:\Users\kteynor\Documents\School\Game Engine\Labs\ExternalDependencies\Qt\QtAutoMOC\bin\Release\QtAutoMOC.pdb
+F:\Users\kteynor\Documents\School\Game Engine\Labs\ExternalDependencies\Qt\QtAutoMOC\obj\x86\Release\QtAutoMOC.exe
+F:\Users\kteynor\Documents\School\Game Engine\Labs\ExternalDependencies\Qt\QtAutoMOC\obj\x86\Release\QtAutoMOC.pdb
+F:\Users\kteynor\Documents\School\Game Engine\Labs\ExternalDependencies\Qt\QtAutoMOC\obj\x86\Release\QtAutoMOC.csprojResolveAssemblyReference.cache
