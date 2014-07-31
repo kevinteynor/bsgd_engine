@@ -1,0 +1,28 @@
+﻿Build started 7/18/2014 8:54:03 AM.
+     1>Project "C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_03_GeneralForces\Lab_03_GeneralForces.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\temp\Lab_03_GeneralForces.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       PreBuildEvent:
+         CALL "C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_03_GeneralForces\..\..\ExternalDependencies\Qt\moc_q_object.bat" "C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_03_GeneralForces\" "C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_03_GeneralForces\..\..\ExternalDependencies\Qt\moc.exe"
+         :VCEnd
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\GAME PHYSICS\LAB_03_GENERALFORCES\GENERALFORCEDEMO.H: 0
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_03_GeneralForces\..\..\ExternalDependencies\Qt\include" /I"C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_03_GeneralForces\..\..\ExternalDependencies\NeumontTools\include" /I"C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_03_GeneralForces\..\..\ExternalDependencies\glm" /I"C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_03_GeneralForces\..\..\ExternalDependencies\glew\include" /I"C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_03_GeneralForces\..\..\ExternalDependencies\Engine\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\temp\\" /Fd"Debug\temp\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneralForceDemo.cpp Main.cpp
+         Main.cpp
+         GeneralForceDemo.cpp
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_03_GeneralForces\Debug\Lab_03_GeneralForces.exe" /NOLOGO /LIBPATH:"C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_03_GeneralForces\..\..\ExternalDependencies\Qt\lib" /LIBPATH:"C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_03_GeneralForces\..\..\ExternalDependencies\NeumontTools\lib" /LIBPATH:"C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_03_GeneralForces\..\..\ExternalDependencies\glew\lib" /LIBPATH:"C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_03_GeneralForces\..\..\ExternalDependencies\Engine\lib" QtCored4.lib QtGuid4.lib QtOpenGLd4.lib NeumontTools.lib glew32.lib openGL32.lib Engine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\temp\Lab_03_GeneralForces.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_03_GeneralForces\Debug\Lab_03_GeneralForces.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_03_GeneralForces\Debug\Lab_03_GeneralForces.lib" /MACHINE:X86 Debug\temp\GeneralForceDemo.obj
+         Debug\temp\Main.obj
+         Lab_03_GeneralForces.vcxproj -> C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_03_GeneralForces\Debug\Lab_03_GeneralForces.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_03_GeneralForces\Debug\Lab_03_GeneralForces.exe;#1" /manifest Debug\temp\Lab_03_GeneralForces.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\temp\Lab_03_GeneralForces.unsuccessfulbuild".
+         Touching "Debug\temp\Lab_03_GeneralForces.lastbuildstate".
+     1>Done Building Project "C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_03_GeneralForces\Lab_03_GeneralForces.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.46

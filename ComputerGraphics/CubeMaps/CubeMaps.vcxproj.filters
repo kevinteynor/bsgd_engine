@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CubeMapDisplay.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CubeMapDisplay.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="x_neg.png">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="z_pos.png">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="x_pos.png">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="y_neg.png">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="y_pos.png">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="z_neg.png">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="sphereFrag.sh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="sphereVert.sh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="cubeFrag.sh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="cubeVert.sh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="negx.png">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="negy.png">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="negz.png">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="posx.png">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="posy.png">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="posz.png">
+      <Filter>Textures</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Textures">
+      <UniqueIdentifier>{bd69a4a3-f193-4c7a-8567-065614d25fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{34200b31-67b9-4074-a222-9fb63652ad7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

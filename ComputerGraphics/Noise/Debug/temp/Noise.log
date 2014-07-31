@@ -1,0 +1,26 @@
+﻿Build started 7/18/2014 9:23:24 AM.
+     1>Project "C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\Noise.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\temp\Noise.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       PreBuildEvent:
+         CALL "C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\..\..\ExternalDependencies\Qt\QtAutoMOC.exe" "C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\Noise.vcxproj" "C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\..\..\ExternalDependencies\Qt\moc.exe"
+         :VCEnd
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\..\..\ExternalDependencies\Qt\include /IC:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\..\..\ExternalDependencies\NeumontTools\include /IC:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\..\..\ExternalDependencies\glm /IC:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\..\..\ExternalDependencies\glew\include /IC:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\..\..\ExternalDependencies\libnoise\include /IC:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\..\..\ExternalDependencies\Engine\include /IC:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\..\..\ExternalDependencies\DebugTools\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\temp\\" /Fd"Debug\temp\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp NoiseDisplay.cpp
+         NoiseDisplay.cpp
+         main.cpp
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\Debug\Noise.exe" /NOLOGO /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\..\..\ExternalDependencies\Qt\lib /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\..\..\ExternalDependencies\glew\lib /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\..\..\ExternalDependencies\libnoise\lib /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\..\..\ExternalDependencies\Engine\lib /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\..\..\ExternalDependencies\DebugTools\lib /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\..\..\ExternalDependencies\NeumontTools\lib QtCored4.lib QtGuid4.lib QtOpenGLd4.lib glew32.lib openGL32.lib libnoise.lib Engine.lib DebugTools.lib NeumontTools.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\temp\Noise.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\Debug\Noise.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\Debug\Noise.lib" /MACHINE:X86 Debug\temp\main.obj
+         Debug\temp\NoiseDisplay.obj
+         Noise.vcxproj -> C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\Debug\Noise.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\Debug\Noise.exe;#1" /manifest Debug\temp\Noise.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\temp\Noise.unsuccessfulbuild".
+         Touching "Debug\temp\Noise.lastbuildstate".
+     1>Done Building Project "C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\Noise\Noise.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.38

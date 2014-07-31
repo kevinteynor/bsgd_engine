@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MyMain.cpp" />
+    <ClCompile Include="MyGLWindow.cpp" />
+    <ClCompile Include="MyMainWindow.cpp" />
+    <ClCompile Include="MyMainWindow_moc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyGLWindow.h" />
+    <ClInclude Include="MyMainWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ShaderCode.inl" />
+    <None Include="FragShader_2.sh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="MyFragmentShader.sh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="VertexShader_2.sh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="SimpleVertexShader.sh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="MyVertexShader.sh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="fragshader_texture.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="vertexshader_texture.vsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="vertexshader_texture_2.vsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="fragshader_texture_2.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="fragment_discard.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="vertex_discard.vsh">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{5a07d081-8063-4906-a84f-e182266543ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,45 @@
+HOW TO USE THE ENGINE PROJECT IN A C++ GMAE PROJECT.
+
+1. Create new EMPTY C++ Project.
+2. Add the engine project to the solution as an existing project.
+3. Set the engine project as a dependency for the new project.
+
+4. Modify new project properties:
+	- General Tab:
+		- make "Intermediate Directory" $(Configuration)\temp\
+	- C/C++ - General Tab:
+		- Add these to Additional Include Directories:
+			$(SolutionDir)..\ExternalDependencies\Qt\include
+			$(SolutionDir)..\ExternalDependencies\NeumontTools\include
+			$(SolutionDir)..\ExternalDependencies\glm
+			$(SolutionDir)..\ExternalDependencies\glew\include
+			$(SolutionDir)..\ExternalDependencies\Engine\include
+	- Linker - General Tab:
+		- Add these to Additional Library Dependencies:
+			$(SolutionDir)..\ExternalDependencies\Qt\lib
+			$(SolutionDir)..\ExternalDependencies\NeumontTools\lib
+			$(SolutionDir)..\ExternalDependencies\glew\lib
+			$(SolutionDir)..\ExternalDependencies\Engine\lib
+	- Linker - Input Tab:
+		- Add these to Additional Dependencies:
+			QtCored4.lib
+			QtGuid4.lib
+			QtOpenGLd4.lib
+			NeumontTools.lib
+			glew32.lib
+			openGL32.lib
+			Engine.lib
+	- Pre-Build Events:
+		- Add to Command Line:
+			CALL "$(SolutionDir)..\ExternalDependencies\Qt\moc_q_object.bat" "$(SolutionDir)" "$(SolutionDir)..\ExternalDependencies\Qt\moc.exe"
+	- In windows file explorer, copy all the DLLs needed into the debug folder of the new solution.
+
+5. (For a Qt Project) add Main.cpp to the project
+6. add this code to main:
+	#include <Qt\qapplication.h>
+	
+	int main(int argc, char* argv[])
+	{
+		QApplication app(argc, argv);
+		return app.exec();
+	}

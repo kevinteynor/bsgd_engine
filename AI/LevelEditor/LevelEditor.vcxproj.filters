@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="EditorHostWindow.cpp">
+      <Filter>EditorDisplay</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="EditorDisplay">
+      <UniqueIdentifier>{0fafac4c-f6d2-4982-b319-4ef248f69611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{53322b3a-eb0b-48f8-bb70-1607ed4e7508}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EditorHostWindow.h">
+      <Filter>EditorDisplay</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FragShader.sh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="VertexShader.sh">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

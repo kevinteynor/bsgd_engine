@@ -1,0 +1,29 @@
+﻿Build started 7/18/2014 9:29:26 AM.
+     1>Project "C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\NormalMaps.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\temp\NormalMaps.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       PreBuildEvent:
+         CALL "C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\..\..\ExternalDependencies\Qt\QtAutoMOC.exe" "C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\NormalMaps.vcxproj" "C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\..\..\ExternalDependencies\Qt\moc.exe"
+         :VCEnd
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\..\..\ExternalDependencies\Qt\include /IC:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\..\..\ExternalDependencies\NeumontTools\include /IC:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\..\..\ExternalDependencies\glm /IC:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\..\..\ExternalDependencies\glew\include /IC:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\..\..\ExternalDependencies\Engine\include /IC:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\..\..\ExternalDependencies\DebugTools\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\temp\\" /Fd"Debug\temp\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt NormalDisplay.cpp main.cpp
+         NormalDisplay.cpp
+         Generating Code...
+         Compiling...
+         main.cpp
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\Debug\NormalMaps.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\..\..\ExternalDependencies\Qt\lib /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\..\..\ExternalDependencies\NeumontTools\lib /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\..\..\ExternalDependencies\glew\lib /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\..\..\ExternalDependencies\Engine\lib /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\..\..\ExternalDependencies\DebugTools\lib QtCored4.lib QtGuid4.lib QtOpenGLd4.lib NeumontTools.lib glew32.lib openGL32.lib Engine.lib DebugTools.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\temp\NormalMaps.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\Debug\NormalMaps.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\Debug\NormalMaps.lib" /MACHINE:X86 Debug\temp\main.obj
+         Debug\temp\NormalDisplay.obj
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         NormalMaps.vcxproj -> C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\Debug\NormalMaps.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\Debug\NormalMaps.exe;#1" /manifest Debug\temp\NormalMaps.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\temp\NormalMaps.unsuccessfulbuild".
+         Touching "Debug\temp\NormalMaps.lastbuildstate".
+     1>Done Building Project "C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\NormalMaps.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.42

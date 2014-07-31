@@ -1,0 +1,21 @@
+﻿Build started 7/15/2014 11:46:36 AM.
+     1>Project "C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_05_SimpleCollision\Lab_05_SimpleCollision.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\temp\Lab_05_SimpleCollision.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_05_SimpleCollision\Debug\Lab_05_SimpleCollision.exe" /NOLOGO /LIBPATH:"C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_05_SimpleCollision\..\..\ExternalDependencies\Qt\lib" /LIBPATH:"C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_05_SimpleCollision\..\..\ExternalDependencies\NeumontTools\lib" /LIBPATH:"C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_05_SimpleCollision\..\..\ExternalDependencies\glew\lib" /LIBPATH:"C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_05_SimpleCollision\..\..\ExternalDependencies\Engine\lib" QtCored4.lib QtGuid4.lib QtOpenGLd4.lib NeumontTools.lib glew32.lib openGL32.lib Engine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\temp\Lab_05_SimpleCollision.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_05_SimpleCollision\Debug\Lab_05_SimpleCollision.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_05_SimpleCollision\Debug\Lab_05_SimpleCollision.lib" /MACHINE:X86 Debug\temp\Main.obj
+         Debug\temp\SimpleCollisionDemo.obj
+         LINK : C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_05_SimpleCollision\Debug\Lab_05_SimpleCollision.exe not found or not built by the last incremental link; performing full link
+         Lab_05_SimpleCollision.vcxproj -> C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_05_SimpleCollision\Debug\Lab_05_SimpleCollision.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_05_SimpleCollision\Debug\Lab_05_SimpleCollision.exe;#1" /manifest Debug\temp\Lab_05_SimpleCollision.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\temp\Lab_05_SimpleCollision.unsuccessfulbuild".
+         Touching "Debug\temp\Lab_05_SimpleCollision.lastbuildstate".
+     1>Done Building Project "C:\Users\kteynor\Desktop\ctfdemo\Game Physics\Lab_05_SimpleCollision\Lab_05_SimpleCollision.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.93

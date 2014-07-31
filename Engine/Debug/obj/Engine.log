@@ -1,0 +1,159 @@
+﻿Build started 7/18/2014 9:29:18 AM.
+     1>Project "C:\Users\kteynor\Desktop\ctfdemo\Engine\Engine.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\obj\Engine.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       PreBuildEvent:
+         CALL "C:\Users\kteynor\Desktop\ctfdemo\Engine\..\ExternalDependencies\Qt\moc_q_object.bat" "C:\Users\kteynor\Desktop\ctfdemo\Engine\" "C:\Users\kteynor\Desktop\ctfdemo\Engine\..\ExternalDependencies\Qt\moc.exe"
+         :VCEnd
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\ASSERTION.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\ASTARPATH.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\AUTOPROFILE.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\DEBUGCAMERA.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\DEBUGMEMORY.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\DEBUGMENU.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\DEBUGSHAPES.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\DECISIONTREE.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\DEMOWINDOW.H: 1
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\ENGINETYPEDEFS.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\EXPORTHEADER.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\FASTDELEGATE.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\FASTDELEGATEBIND.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\GAME.H: 1
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\GRIDWIDGET2D.H: 1
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\GRIDWIDGET_2D.H: 1
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\INPUTMANAGER.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\LOGGER.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\MODELLOADER.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\NATIVELEVEL.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\NATIVEMODEL.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\PARTICLECONTACT2D.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\PARTICLECONTACT_2D.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\PARTICLEFORCEGENERATOR_2D.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\PERFTIMER.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\PHYSICSPARTICLE2D.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\PHYSICSPARTICLE_2D.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\RENDERABLEDATA.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\RENDERER.H: 1
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\RESOURCE.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\SHADERMANAGER.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\UPDATECLOCK.H: 0
+         
+         ---------- C:\USERS\KTEYNOR\DESKTOP\CTFDEMO\ENGINE\VERTICALDEBUGMENU.H: 1
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\kteynor\Desktop\ctfdemo\Engine\..\ExternalDependencies\Qt\include /IC:\Users\kteynor\Desktop\ctfdemo\Engine\..\ExternalDependencies\NeumontTools\include /IC:\Users\kteynor\Desktop\ctfdemo\Engine\..\ExternalDependencies\glew\include /IC:\Users\kteynor\Desktop\ctfdemo\Engine\..\ExternalDependencies\glm /IC:\Users\kteynor\Desktop\ctfdemo\Engine\..\ExternalDependencies\glm\glm /ZI /nologo /W4 /WX /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ENGINE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\obj\\" /Fd"Debug\obj\vc100.pdb" /Gd /TP /wd4201 /wd4251 /wd4127 /wd4351 /wd4100 /wd4189 /analyze- /errorReport:prompt DemoWindow_moc.cpp Game_moc.cpp GridWidget2D_moc.cpp NativeLevel.cpp Renderer.cpp Renderer_moc.cpp
+         Renderer_moc.cpp
+         Renderer.cpp
+         GridWidget2D_moc.cpp
+         Game_moc.cpp
+         DemoWindow_moc.cpp
+         Generating Code...
+         Compiling...
+         NativeLevel.cpp
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kteynor\Desktop\ctfdemo\Engine\Debug\Engine.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\Engine\..\ExternalDependencies\glew\lib /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\Engine\..\ExternalDependencies\NeumontTools\lib /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\Engine\..\ExternalDependencies\Engine\lib /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\Engine\..\ExternalDependencies\Qt\lib glew32.lib QtCored4.lib QtGuid4.lib QtOpenGLd4.lib NeumontTools.lib openGL32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\obj\Engine.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\kteynor\Desktop\ctfdemo\Engine\Debug\Engine.pdb" /SUBSYSTEM:WINDOWS /OPT:NOREF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kteynor\Desktop\ctfdemo\Engine\Debug\Engine.lib" /MACHINE:X86 /DLL Debug\obj\AStarPath.obj
+         Debug\obj\AutoProfile.obj
+         Debug\obj\DebugCamera.obj
+         Debug\obj\DemoWindow.obj
+         Debug\obj\DemoWindow_moc.obj
+         Debug\obj\dllmain.obj
+         Debug\obj\Game.obj
+         Debug\obj\Game_moc.obj
+         Debug\obj\GridWidget2D.obj
+         Debug\obj\GridWidget2D_moc.obj
+         Debug\obj\InputManager.obj
+         Debug\obj\Logger.obj
+         Debug\obj\NativeLevel.obj
+         Debug\obj\NativeModel.obj
+         Debug\obj\ParticleContact2D.obj
+         Debug\obj\ParticleForceGenerator_2D.obj
+         Debug\obj\PerfTimer.obj
+         Debug\obj\PhysicsParticle2D.obj
+         Debug\obj\Renderer.obj
+         Debug\obj\Renderer_moc.obj
+         Debug\obj\ShaderManager.obj
+         Debug\obj\UpdateClock.obj
+     1>AStarPath.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+            Creating library C:\Users\kteynor\Desktop\ctfdemo\Engine\Debug\Engine.lib and object C:\Users\kteynor\Desktop\ctfdemo\Engine\Debug\Engine.exp
+         Engine.vcxproj -> C:\Users\kteynor\Desktop\ctfdemo\Engine\Debug\Engine.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\kteynor\Desktop\ctfdemo\Engine\Debug\Engine.dll;#2" /manifest Debug\obj\Engine.dll.intermediate.manifest
+       PostBuildEvent:
+         CALL "C:\Users\kteynor\Desktop\ctfdemo\Engine\copy_dependencies.bat" "C:\Users\kteynor\Desktop\ctfdemo\Engine\" "C:\Users\kteynor\Desktop\ctfdemo\Engine\..\ExternalDependencies\Engine\" "C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\Debug\"
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Debug\obj\Engine.unsuccessfulbuild".
+         Touching "Debug\obj\Engine.lastbuildstate".
+     1>Done Building Project "C:\Users\kteynor\Desktop\ctfdemo\Engine\Engine.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.17

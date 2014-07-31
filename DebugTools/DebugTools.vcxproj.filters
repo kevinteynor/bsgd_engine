@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="ExportHeader.h">
+      <Filter>Main Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="FastDelegateBind.h">
+      <Filter>Main Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="FastDelegate.h">
+      <Filter>Main Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugApplication.h">
+      <Filter>Debug Application</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugShapes.h">
+      <Filter>DebugShapes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Main Debug">
+      <UniqueIdentifier>{5b2637c2-889d-4438-9676-1be0d413060f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug Application">
+      <UniqueIdentifier>{b5df26d6-eccc-4706-9ebe-53943b2426ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugShapes">
+      <UniqueIdentifier>{6a2785b2-f9d5-4645-82f5-0518d8c46fcb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DebugApplication.cpp">
+      <Filter>Debug Application</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugShapes.cpp">
+      <Filter>DebugShapes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DebugShapeShader.inl">
+      <Filter>DebugShapes</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,41 @@
+﻿Build started 7/18/2014 9:29:18 AM.
+     1>Project "C:\Users\kteynor\Desktop\ctfdemo\DebugTools\DebugTools.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\temp\DebugTools.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       PreBuildEvent:
+         CALL "C:\Users\kteynor\Desktop\ctfdemo\DebugTools\..\ExternalDependencies\Qt\QtAutoMOC.exe" "C:\Users\kteynor\Desktop\ctfdemo\DebugTools\DebugTools.vcxproj" "C:\Users\kteynor\Desktop\ctfdemo\DebugTools\..\ExternalDependencies\Qt\moc.exe"
+         :VCEnd
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\kteynor\Desktop\ctfdemo\DebugTools\..\ExternalDependencies\Qt\include /IC:\Users\kteynor\Desktop\ctfdemo\DebugTools\..\ExternalDependencies\NeumontTools\include /IC:\Users\kteynor\Desktop\ctfdemo\DebugTools\..\ExternalDependencies\glm /IC:\Users\kteynor\Desktop\ctfdemo\DebugTools\..\ExternalDependencies\glew\include /IC:\Users\kteynor\Desktop\ctfdemo\DebugTools\..\ExternalDependencies\Engine\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DEBUG_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\temp\\" /Fd"Debug\temp\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DebugApplication.cpp DebugShapes.cpp
+         DebugApplication.cpp
+         Generating Code...
+         Compiling...
+         DebugShapes.cpp
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kteynor\Desktop\ctfdemo\DebugTools\Debug\DebugTools.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\DebugTools\..\ExternalDependencies\Qt\lib /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\DebugTools\..\ExternalDependencies\NeumontTools\lib /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\DebugTools\..\ExternalDependencies\glew\lib /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\DebugTools\..\ExternalDependencies\Engine\lib QtCored4.lib QtGuid4.lib QtOpenGLd4.lib NeumontTools.lib glew32.lib openGL32.lib Engine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\temp\DebugTools.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\kteynor\Desktop\ctfdemo\DebugTools\Debug\DebugTools.pdb" /SUBSYSTEM:WINDOWS /OPT:NOREF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kteynor\Desktop\ctfdemo\DebugTools\Debug\DebugTools.lib" /MACHINE:X86 /DLL Debug\temp\DebugApplication.obj
+         Debug\temp\DebugShapes.obj
+     1>DebugApplication.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+            Creating library C:\Users\kteynor\Desktop\ctfdemo\DebugTools\Debug\DebugTools.lib and object C:\Users\kteynor\Desktop\ctfdemo\DebugTools\Debug\DebugTools.exp
+         DebugTools.vcxproj -> C:\Users\kteynor\Desktop\ctfdemo\DebugTools\Debug\DebugTools.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\kteynor\Desktop\ctfdemo\DebugTools\Debug\DebugTools.dll;#2" /manifest Debug\temp\DebugTools.dll.intermediate.manifest
+       PostBuildEvent:
+         CALL "C:\Users\kteynor\Desktop\ctfdemo\DebugTools\copy_dependencies.bat" "C:\Users\kteynor\Desktop\ctfdemo\DebugTools\" "C:\Users\kteynor\Desktop\ctfdemo\DebugTools\..\ExternalDependencies\DebugTools\" "C:\Users\kteynor\Desktop\ctfdemo\ComputerGraphics\NormalMaps\Debug\"
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Debug\temp\DebugTools.unsuccessfulbuild".
+         Touching "Debug\temp\DebugTools.lastbuildstate".
+     1>Done Building Project "C:\Users\kteynor\Desktop\ctfdemo\DebugTools\DebugTools.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.41

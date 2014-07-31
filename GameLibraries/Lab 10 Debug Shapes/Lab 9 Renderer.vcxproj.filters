@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ParentWindow.cpp" />
+    <ClCompile Include="ParentWindow_moc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ParentWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader_vertex1.sh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader_frag1.sh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader_frag2.sh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader_frag3.sh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader_vertex2.sh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader_vertex3.sh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader_frag4.sh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader_vertex4.sh">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{595e4b3d-39bc-4834-bd5b-08891a32b5da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

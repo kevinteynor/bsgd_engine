@@ -1,0 +1,27 @@
+﻿Build started 7/15/2014 11:21:59 AM.
+     1>Project "C:\Users\kteynor\Desktop\ctfdemo\AI\AStarPathing\AStarPathing.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\temp\AStarPathing.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       PreBuildEvent:
+         CALL "C:\Users\kteynor\Desktop\ctfdemo\AI\AStarPathing\..\..\ExternalDependencies\Qt\QtAutoMOC.exe" "C:\Users\kteynor\Desktop\ctfdemo\AI\AStarPathing\AStarPathing.vcxproj" "C:\Users\kteynor\Desktop\ctfdemo\AI\AStarPathing\..\..\ExternalDependencies\Qt\moc.exe"
+         :VCEnd
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\kteynor\Desktop\ctfdemo\AI\AStarPathing\..\..\ExternalDependencies\Qt\include /IC:\Users\kteynor\Desktop\ctfdemo\AI\AStarPathing\..\..\ExternalDependencies\NeumontTools\include /IC:\Users\kteynor\Desktop\ctfdemo\AI\AStarPathing\..\..\ExternalDependencies\glm /IC:\Users\kteynor\Desktop\ctfdemo\AI\AStarPathing\..\..\ExternalDependencies\glew\include /IC:\Users\kteynor\Desktop\ctfdemo\AI\AStarPathing\..\..\ExternalDependencies\Engine\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\temp\\" /Fd"Debug\temp\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp PathingDisplayWindow.cpp
+         PathingDisplayWindow.cpp
+     1>c:\users\kteynor\desktop\ctfdemo\ai\astarpathing\pathingdisplaywindow.cpp(253): warning C4482: nonstandard extension used: enum 'Qt::CheckState' used in qualified name
+         Main.cpp
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kteynor\Desktop\ctfdemo\AI\AStarPathing\Debug\AStarPathing.exe" /NOLOGO /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\AI\AStarPathing\..\..\ExternalDependencies\Qt\lib /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\AI\AStarPathing\..\..\ExternalDependencies\NeumontTools\lib /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\AI\AStarPathing\..\..\ExternalDependencies\glew\lib /LIBPATH:C:\Users\kteynor\Desktop\ctfdemo\AI\AStarPathing\..\..\ExternalDependencies\Engine\lib QtCored4.lib QtGuid4.lib QtOpenGLd4.lib NeumontTools.lib glew32.lib openGL32.lib Engine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\temp\AStarPathing.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\kteynor\Desktop\ctfdemo\AI\AStarPathing\Debug\AStarPathing.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kteynor\Desktop\ctfdemo\AI\AStarPathing\Debug\AStarPathing.lib" /MACHINE:X86 Debug\temp\Main.obj
+         Debug\temp\PathingDisplayWindow.obj
+         AStarPathing.vcxproj -> C:\Users\kteynor\Desktop\ctfdemo\AI\AStarPathing\Debug\AStarPathing.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\kteynor\Desktop\ctfdemo\AI\AStarPathing\Debug\AStarPathing.exe;#1" /manifest Debug\temp\AStarPathing.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\temp\AStarPathing.unsuccessfulbuild".
+         Touching "Debug\temp\AStarPathing.lastbuildstate".
+     1>Done Building Project "C:\Users\kteynor\Desktop\ctfdemo\AI\AStarPathing\AStarPathing.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.65

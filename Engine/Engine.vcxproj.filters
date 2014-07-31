@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Main Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugCamera.cpp">
+      <Filter>Debugging\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="PerfTimer.cpp">
+      <Filter>Profiling</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoProfile.cpp">
+      <Filter>Profiling</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer_moc.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateClock.cpp">
+      <Filter>Timing</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoWindow.cpp">
+      <Filter>QtDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoWindow_moc.cpp">
+      <Filter>QtDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleForceGenerator_2D.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="NativeModel.cpp">
+      <Filter>File Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="AStarPath.cpp">
+      <Filter>Pathing</Filter>
+    </ClCompile>
+    <ClCompile Include="NativeLevel.cpp">
+      <Filter>File Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleContact2D.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsParticle2D.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="GridWidget2D.cpp">
+      <Filter>QtDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="GridWidget2D_moc.cpp">
+      <Filter>QtDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Game_moc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExportHeader.h">
+      <Filter>Main Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCamera.h">
+      <Filter>Debugging\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineTypeDefs.h">
+      <Filter>Main Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="Assertion.h">
+      <Filter>Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="PerfTimer.h">
+      <Filter>Profiling</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoProfile.h">
+      <Filter>Profiling</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugMemory.h">
+      <Filter>Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateClock.h">
+      <Filter>Timing</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoWindow.h">
+      <Filter>QtDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleForceGenerator_2D.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="FastDelegate.h">
+      <Filter>Main Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FastDelegateBind.h">
+      <Filter>Main Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="NativeModel.h">
+      <Filter>File Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="AStarPath.h">
+      <Filter>Pathing</Filter>
+    </ClInclude>
+    <ClInclude Include="NativeLevel.h">
+      <Filter>File Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableData.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DecisionTree.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleContact2D.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsParticle2D.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="GridWidget2D.h">
+      <Filter>QtDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="ShadowShaders.inl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Main Engine">
+      <UniqueIdentifier>{40366029-0846-4370-84a2-4d05266ce86f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{1685ab81-559f-4196-9cc7-eb1b809a3ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{f0146860-f5ef-4af1-82fb-a0ea3d32a007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debugging">
+      <UniqueIdentifier>{d343ebe8-046f-44e2-8353-0f5c409e15c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profiling">
+      <UniqueIdentifier>{0d7abb10-f4a4-4b86-b458-97af0189401f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timing">
+      <UniqueIdentifier>{60b741ba-d168-4260-b42d-c477518d136d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debugging\Camera">
+      <UniqueIdentifier>{d98b9bd9-cc5f-4797-95ab-75b9ed8855a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{fd8d1beb-b5c3-4d6b-b91b-9f026801b41f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QtDemo">
+      <UniqueIdentifier>{2ed9b35d-7783-4be5-9f82-1da4784f3cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{52271abf-f199-4175-99e9-d46b7cf3f3fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pathing">
+      <UniqueIdentifier>{556f8c88-3a12-4e0c-a739-0cdd86d697b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File Loading">
+      <UniqueIdentifier>{9b314a24-9a2a-4851-8122-d9fb976ed3cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{6c0f670b-7f43-47b6-922e-c32201ff501f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="passthroughShaders.inl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="HOW_TO_USE.txt" />
+  </ItemGroup>
+</Project>
